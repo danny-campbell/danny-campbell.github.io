@@ -1,0 +1,392 @@
+# Publications
+
+```{r setup, include=FALSE, eval=TRUE}
+knitr::opts_chunk$set(collapse = TRUE)
+library(tidyverse)
+
+
+# other publications ------
+
+z <- 0
+other.list <- list()
+
+z <- z+1
+other.list[[z]] <- c("ED Sandorf, D Campbell (2021). The influence of information search on preference formation and choice. *Project Repository Journal*, 8: 78-81.","https://edition.pagesuite-professional.co.uk/html5/reader/production/default.aspx?pnum=78&edid=8f60f420-1a8e-4c17-9806-d064ac6b0d57&isshared=true")
+
+
+# book chapters -------------------------------------------------------------
+
+z <- 0
+chapter.list <- list()
+
+z <- z+1
+chapter.list[[z]] <- c("D Campbell, WG Hutchinson, R Scarpa (2008). Using mixed logit models to derive individual-specific WTP estimates for landscape improvements under agri-environmental schemes: evidence from the Rural Environment Protection Scheme in Ireland. In P Koundouri, E Birol (Eds.) *Choice Experiments Informing European Environmental Policy*, Edward Elgar, Cheltenham.", "https://doi.org/10.4337/9781848441255.00010")
+
+z <- z+1
+chapter.list[[z]] <- c("D Campbell, S Hess, R Scarpa, JM Rose (2010). Accommodating coefficient outliers in discrete choice modelling: a comparison of discrete and continuous mixing approaches. In S Hess, A Daly (Eds.), *Choice Modelling: the State-Of-The-Art and the State-Of-Practice—Proceedings From the Inaugural International Choice Modelling Conference*, Emerald Group Publishing Limited, Bingley.","https://doi.org/10.1108/9781849507738-015")
+
+
+z <- z+1
+chapter.list[[z]] <- c("L Stevenson, D Campbell (2015). Perceived effectiveness of different methods of delivering information on energy efficiency. In R Heffron, G Little (Eds.), *Delivering Energy Law and Policy in the EU and the US: A Reader*, Edinburgh University Press, Edinburgh.", "https://doi.org/10.1515/9780748696802-086")
+
+
+
+
+# articles ----------------------------------------------------------------
+z <- 0
+article.list <- list()
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, WG Hutchinson, R Scarpa (2006). Quantifying the landscape benefits arising from the Rural Environment Protection Scheme: results from a public survey. *Tearmann: Irish Journal of Agri-Environmental Research*, 5, 1-12.","https://dspace.stir.ac.uk/handle/1893/10494#.YI_-IKJKhhE")
+
+
+z <- z+1
+article.list[[z]] <- c("R Scarpa, D Campbell, WG Hutchinson (2007). Benefit estimates for landscape improvements: sequential Bayesian design and respondents’ rationality in a choice experiment. *Land Economics*, 83(4), 617-634.","https://www.jstor.org/stable/27647797")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell (2007). Willingness to pay for rural landscape improvements: Combining mixed logit and random-effects models. *Journal of Agricultural Economics*, 58(3), 467-483.","https://doi.org/10.1111/j.1477-9552.2007.00117.x")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, WG Hutchinson, R Scarpa (2008). Incorporating discontinuous preferences into the analysis of discrete choice experiments. *Environmental and Resource Economics*, 41(3), 401-417.","https://doi.org/10.1007/s10640-008-9198-8")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, R Scarpa, WG Hutchinson (2008). Assessing the spatial dependence of welfare estimates obtained from discrete choice experiments. *Letters in Spatial and Resource Sciences*, 1(2-3), 117-126.","https://doi.org/10.1007/s12076-008-0012-6")
+
+z <- z+1
+article.list[[z]] <- c("R Scarpa, TJ Gilbride, D Campbell, DA Hensher (2009). Modelling attribute non-attendance in choice experiments for rural landscape valuation. *European Review of Agricultural Economics*, 36(2), 151-174.","https://doi.org/10.1093/erae/jbp012")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, WG Hutchinson, R Scarpa (2009). Using choice experiments to explore the spatial distribution of willingness to pay for rural landscape improvements. *Environment and Planning A*, 41(1), 97-111.","https://doi.org/10.1068/a4038")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, DA Hensher, R Scarpa (2011). Non-attendance to attributes in environmental choice analysis: a latent class specification. *Journal of Environmental Planning and Management*, 54(8), 1061-1076.","https://doi.org/10.1080/09640568.2010.549367")
+
+z <- z+1
+article.list[[z]] <- c("S Hynes, D Campbell, P Howley (2011). A holistic vs. an attribute-based approach to agri-environmental policy valuation: Do welfare estimates differ? *Journal of Agricultural Economics*, 62(2), 305-329.","https://doi.org/10.1111/j.1477-9552.2010.00287.x")
+
+z <- z+1
+article.list[[z]] <- c("S Hynes, D Campbell (2011). Estimating the welfare impacts of agricultural landscape change in Ireland: a choice experiment approach. *Journal of Environmental Planning and Management*, 54(8), 1019-1039.","https://doi.org/10.1080/09640568.2010.547691")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, CD Aravena, WG Hutchinson (2011). Cheap and expensive alternatives in stated choice experiments: are they equally considered by respondents? *Applied Economics Letters*, 18(8), 743-747.","https://doi.org/10.1080/13504851.2010.498341")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, DA Hensher, R Scarpa (2012). Cost thresholds, cut-offs and sensitivities in stated choice analysis: identification and implications. *Resource and Energy Economics*, 34(3), 396-411.","https://doi.org/10.1016/j.reseneeco.2012.04.001")
+
+z <- z+1
+article.list[[z]] <- c("YN Al Hamarneh, A Agus, D Campbell, GE Crealey, JC McElnay (2012). Public perceptions of coronary events risk factors: a discrete choice experiment. *BMJ Open*, 2:e001560","http://dx.doi.org/10.1136/bmjopen-2012-001560")
+
+z <- z+1
+article.list[[z]] <- c("M Stithou, S Hynes, N Hanley, D Campbell (2012). Estimating the value of achieving “Good Ecological Status” in the Boyne River Catchment in Ireland using choice experiments. *The Economic and Social Review*, 43(3), 397–422.","https://www.esr.ie/article/view/44")
+
+z <- z+1
+article.list[[z]] <- c("S Hess, A Stathopoulos, D Campbell, V Gibson, S Caussade (2012). It’s not that I don’t care, I just don’t care very much: confounding between attribute non-attendance and taste heterogeneity. *Transportation*, 40, 583-607.","https://doi.org/10.1007/s11116-012-9438-1")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, E Doherty (2013). Combining discrete and continuous mixing distributions to identify niche markets for food. *European Review of Agricultural Economics*, 40(2), 287-312.","https://doi.org/10.1093/erae/jbs018")
+
+z <- z+1
+article.list[[z]] <- c("E Doherty, D Campbell, S Hynes, TM van Rensburg (2013). Examining labelling effects within discrete choice experiments: an application to recreational site choice. *Journal of Environmental Management*, 125, 94-104.","https://doi.org/10.1016/j.jenvman.2013.03.056")
+
+z <- z+1
+article.list[[z]] <- c("E Doherty, D Campbell, S Hynes (2013). Models of Site-choice for Walks in Rural Ireland: Exploring Cost Heterogeneity. *Journal of Agricultural Economics*, 64(2), 446-466.","https://doi.org/10.1111/1477-9552.12002")
+
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, SE Vedel, BJ Thorsen, JB Jacobsen (2014). Heterogeneity in the WTP for recreational access: distributional aspects. *Journal of Environmental Planning and Management*, 57(8), 1200-1219.","https://doi.org/10.1080/09640568.2013.793173")
+
+z <- z+1
+article.list[[z]] <- c("V O’Neill, S Hess, D Campbell (2014). A question of taste: Recognising the role of latent preferences and attitudes in analysing food choices. *Food quality and preference*, 32, 299-310.","https://doi.org/10.1016/j.foodqual.2013.10.003")
+
+z <- z+1
+article.list[[z]] <- c("E Doherty, D Campbell (2014). Demand for safety and regional certification of food. *British Food Journal*, 116(4), 676-689.","https://doi.org/10.1108/BFJ-10-2011-0266")
+
+z <- z+1
+article.list[[z]] <- c("MR Mørkbak, SB Olsen, D Campbell (2014). Behavioral implications of providing real incentives in stated choice experiments. *Journal of Economic Psychology*, 45, 102-116.","https://doi.org/10.1016/j.joep.2014.07.004")
+
+#z <- z+1
+#article.list[[z]] <- c("","")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, DA Hensher, R Scarpa (2014). Bounding WTP distributions to reflect the ‘actual’ consideration set. *Journal of Choice Modelling*, 11: 4-15.","https://doi.org/10.1016/j.jocm.2014.02.004")
+
+z <- z+1
+article.list[[z]] <- c("S Erdem, D Campbell, C Thompson (2014). Elimination and selection by aspects in health choice experiments: Prioritising health service innovations. *Journal of Health Economics*, 38: 10-22.","https://doi.org/10.1016/j.jhealeco.2014.06.012")
+
+z <- z+1
+article.list[[z]] <- c("MR Mørkbak, SB Olsen, D Campbell (2014). Behavioral implications of providing real incentives in stated choice experiments. *Journal of Economic Psychology*, 45: 102-116.","https://doi.org/10.1016/j.joep.2014.07.004")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, S Erdem (2015). Position bias in best-worst scaling surveys: A case study on trust in institutions. *American Journal of Agricultural Economics*, 97: 526-545.","https://doi.org/10.1093/ajae/aau112")
+
+z <- z+1
+article.list[[z]] <- c("S Erdem, D Campbell, AR Hole (2015). Accounting for attribute-level non-attendance in a health choice experiment: Does it matter? *Health Economics*, 24: 773-789.","https://doi.org/10.1002/hec.3059")
+z <- z+1
+article.list[[z]] <- c("D Campbell, M Boeri, E Doherty, WG Hutchinson (2015). Learning, fatigue and preference formation in discrete choice experiments. *Journal of Economic Behavior and Organization*, 119: 345-363.","https://doi.org/10.1016/j.jebo.2015.08.018")
+z <- z+1
+article.list[[z]] <- c("K Meginnis, D Campbell (2017). Students’ preferences for attributes of postgraduate economics modules: Evidence from a multi-profile best-worst scaling survey. *International Review of Economics Education*, 24: 18-27.","https://doi.org/10.1016/j.iree.2016.11.001")
+z <- z+1
+article.list[[z]] <- c("A Longo, D Campbell (2017). The determinants of brownfields redevelopment in England. *Environmental and Resource Economics*, 67: 261-283.","https://doi.org/10.1007/s10640-015-9985-y")
+z <- z+1
+article.list[[z]] <- c("D Campbell, MR Mørkbak, SB Olsen (2017). Response time in online stated choice experiments: the non-triviality of identifying fast and slow respondents. *Journal of Environmental Economics and Policy*, 6: 17-35.","https://doi.org/10.1080/21606544.2016.1167632")
+z <- z+1
+article.list[[z]] <- c("ED Sandorf, D Campbell, N Hanley (2017). Disentangling the influence of knowledge on attribute non-attendance. *Journal of Choice Modelling*, 24: 36-50.","https://doi.org/10.1016/j.jocm.2016.09.003")
+z <- z+1
+article.list[[z]] <- c("S van Osch, S Hynes, T O’Higgins, N Hanley, D Campbell, S Freeman (2017). Estimating the Irish public's willingness to pay for more sustainable salmon produced by integrated multi-trophic aquaculture. *Marine Policy*, 84: 220-227.","https://doi.org/10.1016/j.marpol.2017.07.005")
+
+z <- z+1
+article.list[[z]] <- c("M Czajkowski, W Budziński, D Campbell, M Giergiczny, N Hanley (2017). Spatial heterogeneity of willingness to pay for forest management. *Environmental and Resource Economics*, 68: 705-727.","https://doi.org/10.1007/s10640-016-0044-0")
+z <- z+1
+article.list[[z]] <- c("S Erdem, D Campbell (2017). Preferences for public involvement in health service decisions: A comparison between best-worst scaling and trio-wise stated preference elicitation techniques. *European Journal of Health Economics*, 18: 1107-1123.","https://doi.org/10.1007/s10198-016-0856-4")
+z <- z+1
+article.list[[z]] <- c("W Budziński, D Campbell, M Czajkowski, U Demšar, N Hanley (2017). Using geographically weighted choice models to account for the spatial heterogeneity of preferences. *Journal of Agricultural Economics*, 69: 606-626.","https://doi.org/10.1111/1477-9552.12260")
+
+
+
+z <- z+1
+article.list[[z]] <- c("EJ Van Loo, RM Nayga Jr, D Campbell, HS Seo, W Verbeke (2018). Using eye tracking to account for attribute non-attendance in choice experiments. European Review of Agricultural Economics, 45: 333-365.","https://doi.org/10.1093/erae/jbx035")
+z <- z+1
+article.list[[z]] <- c("D Campbell, MR Mørkbak, SB Olsen (2018). The link between response time and preference, variance and processing heterogeneity in stated choice experiments. Journal of Environmental Economics and Management, 88: 18-34.","https://doi.org/10.1016/j.jeem.2017.10.003")
+z <- z+1
+article.list[[z]] <- c("C Chorus, B Pudane, N Mouter, D Campbell (2018). Taboo trade-off aversion: A discrete choice model and empirical analysis. Journal of Choice Modelling, 27: 37-49.","https://doi.org/10.1016/j.jocm.2017.09.002")
+z <- z+1
+article.list[[z]] <- c("G Grillia, S Notaro, D Campbell (2018). Including value orientations in choice models to estimate benefits of wildlife management policies. *Ecological Economics*, 151: 70-81.","https://doi.org/10.1016/j.ecolecon.2018.04.035")
+z <- z+1
+article.list[[z]] <- c("D Campbell, S Erdem (2019). Including opt-out options in discrete choice experiments: Issues to consider. *The Patient: Patient-Centered Outcomes Research*, 12: 1-14.","https://doi.org/10.1007/s40271-018-0324-6")
+z <- z+1
+article.list[[z]] <- c("ED Sandorf, D Campbell (2019). Accommodating satisficing behaviour in stated choice experiments. *European Review of Agricultural Economics*, 46: 133-162.","https://doi.org/10.1093/erae/jby021")
+z <- z+1
+article.list[[z]] <- c("I Logar, R Brouwer, D Campbell (2020). Does attribute order influence attribute-information processing in discrete choice experiments? *Resource and Energy Economics*, 60: 101164.","https://doi.org/10.1016/j.reseneeco.2020.101164")
+z <- z+1
+article.list[[z]] <- c("Z Liu, N Hanley, D Campbell (2020). Linking urban air pollution with residents’ willingness to pay for greenspace: A choice experiment study in Beijing. *Journal of Environmental Economics and Management*, 104: 102383.","https://doi.org/10.1016/j.jeem.2020.102383")
+
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, ED Sandorf (2021). The use of latent variable models in policy: A road fraught with peril? *Bio-based and Applied Economics*, 9: 305-324.", "https://oaj.fupress.net/index.php/bae/article/view/8087/9248")
+
+z <- z+1
+article.list[[z]] <- c("T Börger, D Campbell, MP White, LR Elliott, LE Fleming, JK Garrett, C Hattam, S Hynes, T Lankia, T Taylor (2021). The value of blue-space recreation and perceived water quality across Europe: A contingent behaviour study. *Science of The Total Environment*, 771: 145597.", "https://doi.org/10.1016/j.scitotenv.2021.145597")
+
+
+z <- z+1
+article.list[[z]] <- c("VM Toledo-Gallegos, J Long, D Campbell, T Börger, N Hanley (2021). Spatial clustering of willingness to pay for ecosystem services. *Journal of Agricultural Economics*, 72: 673-697.","https://doi.org/10.1111/1477-9552.12428")
+
+z <- z+1
+article.list[[z]] <- c("T Börger, QTK Ngoc, L Kuhfuss, TT Hien, N Hanley, D Campbell (2021). Preferences for coastal and marine conservation in Vietnam: Accounting for differences in individual choice set formation. *Ecological Economics*, 180: 106885.","https://doi.org/10.1016/j.ecolecon.2020.106885")
+
+z <- z+1
+article.list[[z]] <- c("B Danley, ED Sandorf, D Campbell (2021). Putting your best fish forward: Investigating distance decay and relative preferences for fish conservation. *Journal of Environmental Economics and Management*, 108: 102475.","https://doi.org/10.1016/j.jeem.2021.102475")
+
+z <- z+1
+article.list[[z]] <- c("M Budhathoki, D Campbell, B Belton, R Newton, S Li, W Zhang, D Little (2022). Factors influencing consumption behaviour towards aquatic food among Asian consumers: A systematic scoping review. *Foods*, 11: 4043.","https://doi.org/10.3390/foods11244043")
+
+z <- z+1
+article.list[[z]] <- c("H Li, D Campbell, S Erdem (2022). Measuring time preferences using stated credit repayment choices. *Journal of Quantitative Economics*, 20: 43-67.","https://doi.org/10.1007/s40953-021-00283-7")
+
+z <- z+1
+article.list[[z]] <- c("ED Sandorf, D Campbell, C Chorus (2022). A simple satisficing model. *PLOS ONE*, 17(10): e0275339.","https://doi.org/10.1371/journal.pone.0275339")
+
+z <- z+1
+article.list[[z]] <- c("T Börger, K Mmonwa, D Campbell (2023). Hazardous human–wildlife encounters, risk attitudes, and the value of shark nets for coastal recreation. *American Journal of Agricultural Economics*, 106(2): 925-945.","https://doi.org/10.1111/ajae.12413")
+
+z <- z+1
+article.list[[z]] <- c("M Budhathoki, L Lincen, H Xu, W Zhang, S Li, R Newton, D Campbell, D Little (2024). Understanding farmed salmon imports and e-commerce consumer satisfaction in China: A text mining approach. *Journal of Agriculture and Food Research*, 18: 101342.","https://doi.org/10.1016/j.jafr.2024.101342")
+
+z <- z+1
+article.list[[z]] <- c("M Budhathoki, H Xu, Z Ma, D campbell, W Zhang, S Li, R Newton, D Little (2024). Consumers’ preferences toward farmed salmon in China: Integrating sensory and choice experiments. *Food Frontiers*, 6(2): 1008-1026.","https://doi.org/10.1002/fft2.530")
+
+
+z <- z+1
+article.list[[z]] <- c("C Jeon, D campbell, S Kim (2025). Exploring the economic value of wine attributes and consumer choice behavior using choice experiment data: A case study of the UK wine market. *Journal of Tourism Studies*, 37(2): 89-112. (In Korean)","https://doi.org/10.21581/jts.2025.5.37.2.89")
+
+z <- z+1
+article.list[[z]] <- c("M Budhathoki, H Xu, Y Song; Z Ma, A Benter, W Zhang, S Li, R Newton, D Campbell, D Little (2025). Perceptions fuelling the demand for high value imported aquatic food in China. *Sustainable Futures*, 9: 100569.","https://doi.org/10.1016/j.sftr.2025.100569")
+
+
+z <- z+1
+article.list[[z]] <- c("C Jeon, D Campbell (2025). Uncovering seasonal heterogeneity in forest ecosystem valuation: Evidence from a meta-analysis with experimental insights. *Forests*, 16(10): 1508.", "https://doi.org/10.3390/f16101508")
+
+z <- z+1
+article.list[[z]] <- c("C Jeon, D Campbell (2026). Valuing forest restoration through environmental attitudes: A hybrid choice modelling approach. *Forests*, 17(3): 305.", "https://doi.org/10.3390/f17030305")
+
+z <- z+1
+article.list[[z]] <- c("T Börger, D Campbell, J Meyerhoff, M Welling (2026). Preferences for biodiversity-promoting private garden designs: A basket-based choice experiment. *Environmental and Resource Economics*, 89(4).", "https://doi.org/10.1007/s10640-025-01050-5")
+
+z <- z+1
+article.list[[z]] <- c("D Campbell, H Lindhjem, KM Grimsrud; ED Sandorf (2026). Exploring age and income distribution effects for willingness-to-pay to plant climate forests in Norway. *Journal of Forest Economics*.", "https://doi.org/10.1108/JFE-02-2025-0015")
+
+z <- z+1
+article.list[[z]] <- c("M Radu, S Erdem, D Campbell (2026). Prompting food safety responsibility: Does it influence consumers' choices of food safety campaigns. *Journal of Behavioural and Experimental Economics*.", "xx")
+
+
+# book -------------------------------------------------------------
+
+z <- 0
+book.list <- list()
+
+z <- z+1
+book.list[[z]] <- c("P Mariel, D Campbell, ED Sandorf, J Meyerhoff, A Vega-Bayo, R Blevins (2026). *Environmental valuation with discrete choice experiments in R*. Springer. ISBN 978-3-031-89337-7 (hardcover), 978-3-031-89340-7 (softcover), 978-3-031-89338-4 (eBook). Book series: I Bateman (Ed.). The Economics of Non-Market Goods and Resources.", "https://doi.org/10.1007/978-3-031-89338-4")
+
+
+
+
+# work in progress -------------------------------------------------------------
+
+z <- 0
+working.list <- list()
+
+z <- z+1
+working.list[[z]] <- c("J Blogg, D Campbell. Sat paper", "")
+
+z <- z+1
+working.list[[z]] <- c("Decision inertia", "")
+
+z <- z+1
+working.list[[z]] <- c("Experimental design long titke design long titke design long titke design long titke design long titke design long titke design long titke design long titke design long titke design long titke design long titke", "")
+
+
+######
+others <- rep("",length(other.list))
+for(i in 1:length(others)){
+  ii <- length(other.list)-(i-1)
+other.list[[ii]][1] <- str_replace(other.list[[ii]][1], "D Campbell", "**D Campbell**")
+
+    others[i] <- str_flatten(paste0("<li value=\"",length(other.list)-(i-1),"\"style=\"padding-bottom: 10px;\">",other.list[[ii]][1],
+" [<i class='fas fa-external-link-alt'></i>](", other.list[[ii]][2], ")</li>"))
+# " <a href=\"",other.list[[ii]][2],"\"",
+# #"target=\"_popup_blank\"",
+# "><img src=\"/img/weblink.svg\" width=\"20\"></a></li>"))
+}
+others <- str_flatten(c("<ol>",others,"</ol>"))
+
+
+######
+
+chapters <- rep("",length(chapter.list))
+for(i in 1:length(chapters)){
+  ii <- length(chapter.list)-(i-1)
+chapter.list[[ii]][1] <- str_replace(chapter.list[[ii]][1], "D Campbell", "**D Campbell**")
+
+    chapters[i] <- str_flatten(paste0("<li value=\"",length(other.list)+length(chapter.list)-(i-1),"\"style=\"padding-bottom: 10px;\">",chapter.list[[ii]][1],
+" [<i class='fas fa-external-link-alt'></i>](", chapter.list[[ii]][2], ")</li>"))
+# " <a href=\"",chapter.list[[ii]][2],"\"",
+# #"target=\"_popup_blank\"",
+# "><img src=\"/img/weblink.svg\" width=\"20\"></a></li>"))
+}
+chapters <- str_flatten(c("<ol>",chapters,"</ol>"))
+
+
+articles <- rep("",length(article.list))
+for(i in 1:length(articles)){
+  ii <- length(article.list)-(i-1)
+article.list[[ii]][1] <- str_replace(article.list[[ii]][1], "D Campbell", "**D Campbell**")
+
+    articles[i] <- str_flatten(paste0("<li value=\"",length(other.list)+length(chapter.list)+length(article.list)-(i-1),"\"style=\"padding-bottom: 10px;\">",article.list[[ii]][1],
+" [<i class='fas fa-external-link-alt'></i>](", article.list[[ii]][2], ")</li>"))
+# " <a href=\"",article.list[[ii]][2],"\"",
+# #"target=\"_popup_blank\"",
+# "><img src=\"/img/weblink.svg\" width=\"20\"></a></li>"))
+}
+articles <- str_flatten(c("<ol>",articles,"</ol>"))
+
+
+books <- rep("",length(book.list))
+for(i in 1:length(books)){
+  ii <- length(book.list)-(i-1)
+book.list[[ii]][1] <- str_replace(book.list[[ii]][1], "D Campbell", "**D Campbell**")
+
+    books[i] <- str_flatten(paste0("<li value=\"",length(other.list)+length(chapter.list)+length(article.list)+length(book.list)-(i-1),"\"style=\"padding-bottom: 10px;\">",book.list[[ii]][1],
+" [<i class='fas fa-external-link-alt'></i>](", book.list[[ii]][2], ")</li>"))
+                                   # " <a href=\"",book.list[[ii]][2],"\"",
+##"target=\"_popup_blank\"",
+# "><img src=\"/img/weblink.svg\" width=\"20\"></a></li>"))
+    }
+books <- str_flatten(c("<ol>",books,"</ol>"))
+
+
+
+working <- rep("",length(working.list))
+for(i in 1:length(working)){
+    ii <- length(working.list)-(i-1)
+    if(working.list[[ii]][2] == ""){
+    weblink <- "."
+    } else{
+    weblink <- paste0(". <a href=\"",working.list[[ii]][2],"\"", #"target=\"_popup_blank\"",
+"><img src=\"/img/weblink.svg\" width=\"20\"></a>")
+    }
+working.list[[ii]][1] <- str_replace(working.list[[ii]][1], "D Campbell", "**D Campbell**")
+    
+    
+  working[i] <- str_flatten(paste0("<li style=\"padding-bottom: 10px;\">",working.list[[ii]][1],ifelse(article.list[[ii]][2]=="X"," ", weblink)))
+}
+working <- str_flatten(c("<ul style=\"list-style: none; margin-left: 0; padding-left: 0em; text-indent: 0em;\">",working,"</l>"))
+
+
+
+```
+
+
+```{=html}
+
+<style>
+.stats-row{display:flex;gap:16px;margin-bottom:1.25rem;flex-wrap:wrap}
+.stat{background:rgba(0.5, 0.5, 0.5, 0);border-radius:var(--border-radius-md);padding:10px 16px;text-align:center}
+.stat-n{font-size:28px;font-weight:900;color:var(--bs-primary)}
+.stat-l{font-size:11px; color: var(--bs-gray); margin-top:1px}
+.hidden{display:none}
+</style>
+
+<div class="stats-row">
+  <div class="stat"><div class="stat-n">`r length(book.list)`</div><div class="stat-l">book</div></div>
+  <div class="stat"><div class="stat-n">`r length(article.list)`</div><div class="stat-l">peer reveiwed journal papers</div></div>
+  <div class="stat"><div class="stat-n">`r length(chapter.list)`</div><div class="stat-l">book chapters</div></div>
+  <div class="stat"><div class="stat-n">`r length(other.list)`</div><div class="stat-l">other</div></div>
+</div>
+
+
+```
+
+
+<!-- [Selected work-in-progress](#worklink)<br> -->
+<!--
+[Journal papers](#jourlink)<br>
+[Book chapters](#chaplink)
+-->
+
+<!--
+## Selected work-in-progress {#worklink}
+
+`r working` 
+
+-->
+
+## Books {#booklink}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+`r books` 
+:::
+
+::: {.column width="20%"}
+:::
+
+::: {.column width="30%"}
+[![](https://media.springernature.com/full/springer-static/cover-hires/book/978-3-031-89338-4?as=webp){width=100%}](https://doi.org/10.1007/978-3-031-89338-4)
+:::
+
+::::
+
+## Refereed journal articles {#jourlink}
+
+`r articles` 
+
+## Book chapters {#chaplink}
+
+`r chapters`
+
+## Other publications {#otherlink}
+
+`r others`
+
+

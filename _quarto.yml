@@ -1,0 +1,55 @@
+project:
+  type: website
+
+website:
+  title: "Danny Campbell"
+  favicon: img/avatar.jpg
+  search: false
+  navbar:
+    foreground: white
+    background: white
+#    foreground: $primary
+    pinned: true
+    collapse: true
+    right:
+      - href: index.qmd
+        text: "**Home**"
+        icon: house-fill
+      - href: experience.qmd
+        text: "**About**"
+        icon: file-earmark-person-fill
+      - href: publications.qmd
+        text: "{{< fa book >}} **Publications**"
+ #       icon: journal-text
+      - href: projects.qmd
+        text: "**Reseach projects**"
+        icon: clipboard-data-fill
+      - href: teaching.qmd
+        text: "**{{< fa person-chalkboard >}} Teaching and supervision**"
+#        icon: clipboard-data-fill
+      - href: software.qmd
+        text: "**{{< fa code >}} Software and code**"
+
+  page-footer: 
+    left: <span>&copy;</span> 2026, Danny Campbell. 
+    right: Site built with <a href="https://quarto.org/">Quarto</a>.
+
+format:
+  html:
+    page-layout: full
+    theme:
+      light:
+        - zephyr
+        - style.scss
+      dark:
+        - darkly
+        - style-d.scss
+    respect-user-color-scheme: true
+    toc: false
+    linkcolor: $primary
+#    include-in-header: 
+    grid:
+      sidebar-width: 300px
+      body-width: 600px
+      margin-width: 300px
+      gutter-width: 1.5rem
