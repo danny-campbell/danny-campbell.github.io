@@ -4,3 +4,7 @@
 *.Rproj
 _site/
 .quarto/
+.DS_Store
+Archive.zip
+
+/.quarto/
