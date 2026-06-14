@@ -5,5 +5,7 @@
 _site/
 .quarto/
 .DS_Store
-
+Archive/
+Archive.zip
+*.zip 
 /.quarto/
