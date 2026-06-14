@@ -1,0 +1,46 @@
+---
+#title: "Danny Campbell"
+about:
+  template: jolla
+  image: img/avatar.jpg
+#  image-width: 30em
+  image-shape: round
+  links:
+    - text: "<iconify-icon icon='bi:envelope-at-fill'></iconify-icon> Email"
+      url: "mailto:danny.campbell@stir.ac.uk"
+#      icon: envelope-at-fill
+    - text: "{{< bi microsoft-teams >}} MS Teams"
+      url: "https://teams.microsoft.com/l/chat/0/0?users=danny.campbell@stir.ac.uk"
+#      icon: microsoft-teams
+    - text: "{{< fa graduation-cap >}} Google Scholar"
+      url: "https://scholar.google.co.uk/citations?user=Dvb7y5gAAAAJ&hl=en"
+#      icon: mortarboard-fill
+#    - text: "<iconify-icon icon='devicon:twitter'></iconify-icon> X"
+#      icon: twitter
+ #     url: "https://twitter.com/DCampbell_econ"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/danny-campbell"
+    - text: "{{< fa brands orcid >}} ORCID iD"
+      url: "https://orcid.org/0000-0001-7467-2318"
+#      icon: 
+    - text: LinkedIn
+      url: "https://linkedin.com/in/dannycampbell"
+      icon: linkedin
+comments: false
+---
+
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+<style>
+body {
+  background-image: url("img/navbar.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100%
+}
+</style>
+
+<div style = "text-align: left;">
+I'm a professor of economics at the Economics Division of the University of Stirling Management School. I'm an environmental economist with a research focus on the economic valuation of environmental and natural resources. I also study preference elicitation for public health services, and food choice analysis. My research interests include behavioural and econometric aspects associated with people's choices, such as decision rules, preference heterogeneity, experimental design and spatial issues.
+</div>

@@ -1,0 +1,130 @@
+# Recently funded projects
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="70%"}
+**CAVEAT - Triangulation of values using different valuation methods**
+
+-	Co-investigator: funded by the joint AHRC and Department for Digital, Culture, Media and Sport (DCMS) Culture and Heritage Capital Research Call No. AH/Y000528/1 (2023-2026)
+
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="27%"}
+![](img/AHRC.png){width=100%}
+:::
+
+::::
+
+CAVEAT is addressing the caveats associated with current valuation methods when applied to culture and heritage capital to inform decision making. The project is exploring how to best triangulate existing valuation techniques to assess the value of the stock (and flows) of a complex historic asset, such as a historic high street/neighbourhood, to improve decision makers' confidence when using such results in social cost-benefit analysis. The project team encompasses expertise from various disciplines (architecture, urban planning, heritage conservation, cultural economics, environmental economics, heritage advocacy, policy making support) who have worked on these themes before and are committed to an interdisciplinary approach.
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="70%"}
+**Restoration of Seagrass for Ocean Wealth UK (ReSOW UK)**
+
+-	Co-investigator: jointly funded by the ESRC and NERC under the Sustainable Management of UK Marine Resources (SMMR) programme No. NE/V016024/1 (2020-2024)
+
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="27%"}
+![](img/smmr.png){width=50%}
+:::
+
+::::
+
+The ReSOW UK project is generating a step-change in our understanding of the contribution of seagrass to the UK's environmental security, economy and wellbeing. It is applying a holistic, systems-based approach which integrates understanding of environmental functioning with the various priorities of those who use, or benefit from, the coast. The project will inform interventions for the management of seagrass which align with local, national and international priorities, yet that are inclusive of the needs of multiple stakeholders and geared towards the long-term sustainability of coastal communities.
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="70%"}
+**Exploring values for coastal heritage using stated choice experiments**
+
+- Principal investigator: Collaborative Doctoral Partnership funded by the AHRC No. AH/V004875/1, with <a href="https://historicengland.org.uk/research/current/social-and-economic-research/">Historic England</a>
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="27%"}
+![](img/AHRC.png){width=100%}
+:::
+::::
+The research will seek to capture intangible, non-use values of the conservation of coastal heritage sites that go beyond narrow notions of economic value of heritage sites (eg., locals and tourists). In addition to stated choice experiments, the project also involves web data mining, focus groups, interviews and surveys to explore the factors that shape people's relationship with coastal heritage.
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="70%"}
+**Discipline Hopping for Environmental Solutions**
+
+- Principal investigator: funded through the NERC No. NE/X018334/1 (2022 and 2023)
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="27%"}
+![](img/NERC.png){width=100%}
+:::
+
+::::
+
+Interdisciplinary projects to explore various aspects of rewilding, nature restoration and the application of nature-based solutions. The projects explored perceptions, values, preferences and misconceptions about nature-based solutions and rewilding for delivering biodiversity and wellbeing benefits.
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="70%"}
+**Valuing the benefits of blue/green infrastructure for flood resilience, natural capital and urban development in Viet Nam**
+
+- (Acting) principal investigator: funded by the NERC No. NE/S002871/2 (2019-2022)
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="27%"}
+![](img/NERC.png){width=100%}
+:::
+
+::::
+
+Flooding affects millions of people globally every year. In Viet Nam, low-lying coastal cities, particularly in river deltas, face increased flood risk and vulnerability due to rapid urban development and climate change. The project sought to develop a multidisciplinary, stakeholder-informed assessment framework for the effectiveness of blue/green infrastructure, such as natural and man-made wetlands, vegetated river banks and restored floodplains, to reduce flood risk and provide additional benefits, such as controlling water pollutants, providing recreational opportunities, improving air quality and increasing resilience to other stressors, such as heat waves and noise pollution.
+
+<br>
+
+
+:::: {.columns}
+
+::: {.column width="70%"}
+**The Influence of Information Search on Preference Formation and Choice (INSPiRE)**
+
+- Principal investigator: funded by Horizon 2020, Marie Sklodowska-Curie Individual Fellowship No. 793163 (2018-2020)
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="27%"}
+![](img/marie-curie.jpg){width=65%}
+:::
+
+::::
+
+Drawing on accumulating evidence from economics, psychology and marketing, the INSPiRE project aimed to understand how searching for information about policy alternatives affects stated preference formation, learning and choice, and the extent to which this can address hypothetical bias. The project developed a novel experimental procedure that advanced experimental design and data analysis. 
+
+
