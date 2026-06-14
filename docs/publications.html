@@ -38,9 +38,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-09b140d2d032adf2aedb8b099be3ee13.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-aa4fc2f1fc57e458badca271b56407d0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aab092b5b807c92bb574468ad2077509.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-aa4fc2f1fc57e458badca271b56407d0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c71149c45a02a468aaca2e90b11d9b1c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-bf2511a129104d12ba75e27bf791482c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-c71149c45a02a468aaca2e90b11d9b1c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -214,8 +214,7 @@ gtag('config', 'G-NJXP1VFCEH', { 'anonymize_ip': true});
       }
     };
     const authorPrefersDark = false;
-    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-    const darkModeDefault = queryPrefersDark.matches;
+    const darkModeDefault = authorPrefersDark;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -228,14 +227,6 @@ gtag('config', 'G-NJXP1VFCEH', { 'anonymize_ip': true});
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
-    queryPrefersDark.addEventListener("change", e => {
-      if(window.localStorage.getItem("quarto-color-scheme") !== null)
-        return;
-      const alternate = e.matches
-      toggleColorMode(alternate);
-      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
-      toggleGiscusIfUsed(alternate, darkModeDefault);
-    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -309,20 +300,87 @@ gtag('config', 'G-NJXP1VFCEH', { 'anonymize_ip': true});
 <h1>Publications</h1>
 
 <style>
-.stats-row{display:flex;gap:16px;margin-bottom:1.25rem;flex-wrap:wrap}
-.stat{background:rgba(0.5, 0.5, 0.5, 0);border-radius:var(--border-radius-md);padding:10px 16px;text-align:center}
-.stat-n{font-size:28px;font-weight:900;color:var(--bs-primary)}
-.stat-l{font-size:11px; color: var(--bs-gray); margin-top:1px}
-.hidden{display:none}
+.stats-row{
+  display:flex;
+  gap:2rem;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin:2rem 0;
+}
+
+.stat{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.stat-circle{
+  width:110px;
+  height:110px;
+  border-radius:50%;
+  border:3px solid var(--bs-primary);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(var(--bs-primary-rgb),0.05);
+  transition:all .2s ease;
+}
+
+.stat-circle:hover{
+  transform:translateY(-4px);
+  box-shadow:0 8px 20px rgba(0,0,0,0.12);
+}
+
+.stat-n{
+  font-size:2.2rem;
+  font-weight:800;
+  line-height:1;
+  color:var(--bs-primary);
+}
+
+.stat-l{
+  margin-top:.75rem;
+  text-align:center;
+  font-size:.75rem;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:var(--bs-secondary-color);
+  max-width:120px;
+}
 </style>
 
 <div class="stats-row">
-  <div class="stat"><div class="stat-n">1</div><div class="stat-l">book</div></div>
-  <div class="stat"><div class="stat-n">62</div><div class="stat-l">peer reveiwed journal papers</div></div>
-  <div class="stat"><div class="stat-n">3</div><div class="stat-l">book chapters</div></div>
-  <div class="stat"><div class="stat-n">1</div><div class="stat-l">other</div></div>
-</div>
 
+  <div class="stat">
+    <div class="stat-circle">
+      <div class="stat-n">1</div>
+    </div>
+    <div class="stat-l">Book</div>
+  </div>
+
+  <div class="stat">
+    <div class="stat-circle">
+      <div class="stat-n">62</div>
+    </div>
+    <div class="stat-l">Refereed Journal Articles</div>
+  </div>
+
+  <div class="stat">
+    <div class="stat-circle">
+      <div class="stat-n">3</div>
+    </div>
+    <div class="stat-l">Book Chapters</div>
+  </div>
+
+  <div class="stat">
+    <div class="stat-circle">
+      <div class="stat-n">1</div>
+    </div>
+    <div class="stat-l">Other Publication</div>
+  </div>
+
+</div>
 
 <!-- [Selected work-in-progress](#worklink)<br> -->
 <!--

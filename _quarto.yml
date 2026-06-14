@@ -48,7 +48,7 @@ format:
       dark:
         - darkly
         - style-d.scss
-    respect-user-color-scheme: true
+#    respect-user-color-scheme: true
     toc: false
     linkcolor: $primary
 #    include-in-header: 

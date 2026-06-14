@@ -329,20 +329,87 @@ working <- str_flatten(c("<ul style=\"list-style: none; margin-left: 0; padding-
 ```{=html}
 
 <style>
-.stats-row{display:flex;gap:16px;margin-bottom:1.25rem;flex-wrap:wrap}
-.stat{background:rgba(0.5, 0.5, 0.5, 0);border-radius:var(--border-radius-md);padding:10px 16px;text-align:center}
-.stat-n{font-size:28px;font-weight:900;color:var(--bs-primary)}
-.stat-l{font-size:11px; color: var(--bs-gray); margin-top:1px}
-.hidden{display:none}
+.stats-row{
+  display:flex;
+  gap:2rem;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin:2rem 0;
+}
+
+.stat{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.stat-circle{
+  width:110px;
+  height:110px;
+  border-radius:50%;
+  border:3px solid var(--bs-primary);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(var(--bs-primary-rgb),0.05);
+  transition:all .2s ease;
+}
+
+.stat-circle:hover{
+  transform:translateY(-4px);
+  box-shadow:0 8px 20px rgba(0,0,0,0.12);
+}
+
+.stat-n{
+  font-size:2.2rem;
+  font-weight:800;
+  line-height:1;
+  color:var(--bs-primary);
+}
+
+.stat-l{
+  margin-top:.75rem;
+  text-align:center;
+  font-size:.75rem;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:var(--bs-secondary-color);
+  max-width:120px;
+}
 </style>
 
 <div class="stats-row">
-  <div class="stat"><div class="stat-n">`r length(book.list)`</div><div class="stat-l">book</div></div>
-  <div class="stat"><div class="stat-n">`r length(article.list)`</div><div class="stat-l">peer reveiwed journal papers</div></div>
-  <div class="stat"><div class="stat-n">`r length(chapter.list)`</div><div class="stat-l">book chapters</div></div>
-  <div class="stat"><div class="stat-n">`r length(other.list)`</div><div class="stat-l">other</div></div>
-</div>
 
+  <div class="stat">
+    <div class="stat-circle">
+      <div class="stat-n">`r length(book.list)`</div>
+    </div>
+    <div class="stat-l">Book</div>
+  </div>
+
+  <div class="stat">
+    <div class="stat-circle">
+      <div class="stat-n">`r length(article.list)`</div>
+    </div>
+    <div class="stat-l">Refereed Journal Articles</div>
+  </div>
+
+  <div class="stat">
+    <div class="stat-circle">
+      <div class="stat-n">`r length(chapter.list)`</div>
+    </div>
+    <div class="stat-l">Book Chapters</div>
+  </div>
+
+  <div class="stat">
+    <div class="stat-circle">
+      <div class="stat-n">`r length(other.list)`</div>
+    </div>
+    <div class="stat-l">Other Publication</div>
+  </div>
+
+</div>
 
 ```
 
