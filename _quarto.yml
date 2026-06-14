@@ -5,6 +5,7 @@ project:
     - CNAME
 
 website:
+  google-analytics: "G-NJXP1VFCEH"
   title: "Danny Campbell"
   favicon: img/avatar.jpg
   search: false
