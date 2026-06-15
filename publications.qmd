@@ -216,7 +216,7 @@ z <- z+1
 article.list[[z]] <- c("D Campbell, H Lindhjem, KM Grimsrud; ED Sandorf (2026). Exploring age and income distribution effects for willingness-to-pay to plant climate forests in Norway. *Journal of Forest Economics*.", "https://doi.org/10.1108/JFE-02-2025-0015")
 
 z <- z+1
-article.list[[z]] <- c("M Radu, S Erdem, D Campbell (2026). Prompting food safety responsibility: Does it influence consumers' choices of food safety campaigns. *Journal of Behavioural and Experimental Economics*.", "xx")
+article.list[[z]] <- c("M Radu, S Erdem, D Campbell (2026). Prompting food safety responsibility: Does it influence consumers' choices of food safety campaigns. *Journal of Behavioural and Experimental Economics*.", "https://doi.org/10.1016/j.socec.2026.102607")
 
 
 # book -------------------------------------------------------------
