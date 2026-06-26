@@ -45,9 +45,9 @@ format:
       light:
         - zephyr
         - style.scss
-      dark:
-        - darkly
-        - style-d.scss
+#      dark:
+#        - darkly
+#        - style-d.scss
 #    respect-user-color-scheme: true
     toc: false
     linkcolor: $primary
