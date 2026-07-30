@@ -218,6 +218,10 @@ article.list[[z]] <- c("D Campbell, H Lindhjem, KM Grimsrud; ED Sandorf (2026). 
 z <- z+1
 article.list[[z]] <- c("M Radu, S Erdem, D Campbell (2026). Prompting food safety responsibility: Does it influence consumers' choices of food safety campaigns. *Journal of Behavioural and Experimental Economics*.", "https://doi.org/10.1016/j.socec.2026.102607")
 
+z <- z+1
+article.list[[z]] <- c("D Campbell, ED Sandorf, T Börger, T Dekker (2026). Inference in downstream analysis using individual-level posterior means from mixed logit models. *Journal of Choice Modelling*.", "...")
+
+
 
 # book -------------------------------------------------------------
 
